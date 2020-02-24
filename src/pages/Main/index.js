@@ -65,7 +65,7 @@ class Main extends Component {
             type="text"
             placeholder="Adicionar repositório"
             value={newRepo}
-            onChange={this.handleinputChange}
+            onChange={this.handleInputChange}
           />
 
           <SubmitButton loading={loading}>
