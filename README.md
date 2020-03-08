@@ -18,6 +18,10 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
 
+<p align="center">
+  <img alt="App" src=".github/reactjsApp.png" width="100%">
+</p>
+
 ## 🚀 Instalação e execução
 
 1. Faça um clone desse repositório;
