@@ -30,7 +30,7 @@ class Main extends Component {
     }
   }
 
-  handleinputChange = e => {
+  handleInputChange = e => {
     this.setState({ newRepo: e.target.value });
   };
 
@@ -69,7 +69,7 @@ class Main extends Component {
             onChange={this.handleInputChange}
           />
 
-          <SubmitButton loading={loading}>
+          <SubmitButton disabled={loading}>
             {loading ? (
               <FaSpinner color="#fff" size={14} />
             ) : (

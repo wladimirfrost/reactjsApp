@@ -23,10 +23,9 @@ const rotate = keyframes`
   }
 `;
 
-export const SubmitButton = styled.button.attrs(props => ({
+export const SubmitButton = styled.button.attrs({
   type: 'submit',
-  disabled: props.loading,
-}))`
+})`
   background: #7159c1;
   border: 0;
   padding: 0 15px;
@@ -43,7 +42,7 @@ export const SubmitButton = styled.button.attrs(props => ({
   }
 
   ${props =>
-    props.loading &&
+    props.disabled &&
     css`
       svg {
         animation: ${rotate} 2s linear infinite;
