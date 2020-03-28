@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Logo" src=".github/logojs.svg" width="100px" />
+    <img alt="ReactJSApp" src=".github/logojs.svg" width="100px" />
 </h1>
 
 <h3 align="center">
@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-  <img alt="AppJS" src=".github/reactJSApp.png" width="100%">
+  <img alt="Frontend" src=".github/reactJSApp.png" width="100%">
 </p>
 
 ## 🚀 Instalação e execução
