@@ -40,7 +40,10 @@ class Main extends Component {
     this.setState({ loading: true });
 
     const { newRepo, repositories } = this.state;
+
     const response = await api.get(`/repos/${newRepo}`);
+
+    console.log(response);
 
     const data = {
       name: response.data.full_name,
@@ -61,8 +64,9 @@ class Main extends Component {
           <FaGithubAlt />
           Repositórios
         </h1>
-        <Form onSubmit={this.handleSubmit}>
+        <Form onSubmit={this.handleSubmit} data-testid="repo-form">
           <input
+            data-testid="repo-input"
             type="text"
             placeholder="Adicionar repositório"
             value={newRepo}
@@ -78,9 +82,9 @@ class Main extends Component {
           </SubmitButton>
         </Form>
 
-        <List>
+        <List data-testid="repo-list">
           {repositories.map(repository => (
-            <li key={repository.name}>
+            <li key={repository.name} data-testid={repository.name}>
               <span>{repository.name}</span>
               <Link to={`/repository/${encodeURIComponent(repository.name)}`}>
                 Detalhes
