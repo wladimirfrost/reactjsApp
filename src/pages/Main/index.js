@@ -49,10 +49,10 @@ export default function Main() {
         <FaGithubAlt />
         Repositórios
       </h1>
-      <Form onSubmit={handleSubmit}>
+      <Form onSubmit={handleSubmit} data-testid="repo-form">
         <input
+          data-testid="repo-input"
           type="text"
-          name="repotxt"
           placeholder="Adicionar repositório"
           value={newRepo}
           onChange={handleInputChange}
