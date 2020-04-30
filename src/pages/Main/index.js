@@ -12,10 +12,10 @@ export default function Main() {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    const repositories = localStorage.getItem('repositories');
+    const localRepositories = localStorage.getItem('repositories');
 
-    if (repositories) {
-      setRepositories(JSON.parse(repositories));
+    if (localRepositories) {
+      setRepositories(JSON.parse(localRepositories));
     }
   }, []);
 
