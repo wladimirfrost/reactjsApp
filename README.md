@@ -7,12 +7,12 @@
 </h3>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/wladimirfrost/reactjsApp">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/wladimirgrf/reactjs-app">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/wladimirfrost/reactjsApp">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/wladimirgrf/reactjs-app">
 
-  <a href="https://github.com/wladimirfrost/reactjsApp/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/wladimirfrost/reactjsApp">
+  <a href="https://github.com/wladimirgrf/reactjs-app/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/wladimirgrf/reactjs-app">
   </a>
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
@@ -25,7 +25,7 @@
 ## 💻 Getting started
 
 1. Clone the repository;
-2. Move into the project folder: `cd reactjsApp`;
+2. Move into the project folder: `cd reactjs-app`;
 3. Run `yarn` to install all the dependencies;
 4. Run `yarn start`;
 
